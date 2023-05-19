@@ -1,0 +1,35 @@
+We have implemented a flexible Portfolio in which a user would be able to create a portfolio and later buy and sell stocks as desired on any date and evaluate the total value of the portfolio. Our portfolio supports commission fees which would be charged every time the user executes a buy or a sell. We have also incorporated the graph feature which denotes the Portfolio's performance over time.
+
+The graph has been designed depending on the constraints provided. It has been designed as follows:
+1.) If the interval between start and end date is lesser then or equal to 30 days then each timestamp would represent an individual day.
+2.) If the interval between start and end date is between 30 days to 60 days then each timestamp would represent an alternate day.
+3.) If the interval between start and end date is between 60 days to 150 days then each timestamp would represent once in 5 days.
+4.) If the interval between start and end date is between 150 days to 900 days then each timestamp would represent once in a month.
+5.) If the interval between start and end date is between 900 days to 2700 days then each timestamp would represent once in a quarter.
+6.) If the interval between start and end date is greater than 2700 days then each timestamp would represent once in a year.
+
+Our portfolio validates the transactions that are entered by the user as well as those transactions that were uploaded as a file in our portfolio object. The validation is such that a sell will happen only when sufficient number of shares are bought for that stock before the sale date otherwise it will throw an error if it doesn't contain sufficient number of shares.
+
+We have integrated the Alpha Vantage API in our project such that all the stock values are taken from the API and the total portfolio value can be calculated with the get value function.
+We have implemented the get composition function that returns the current composition on a specific date.
+
+We can calculate the cost basis of our portfolio which is the total cost of the portfolio on a specific day. This include all the buy transactions and the commission fees.
+
+The list of flexible portfolio functions that we offer are:
+1.)  Buy a stock
+2.)  Sell a stock
+3.)  View a Portfolio
+4.)  Save a Portfolio
+5.)  Load a Portfolio
+6.)  Determine the cost basis
+7.)  Determine the value
+8.)  Plot portfolio performance
+9.)  Show all portfolios
+0.)  Go to previous menu
+
+The user can enter the following options inorder to Implement the functionality that is desired.
+
+There is a flexible view that displays messages related to the flexible portfolio on the output screen. 
+Similarly we have a flexible controller that interacts between the parts of model that deals with flexible portfolio and the flexible view.
+
+The project still supports inflexible portfolio which we implemented as part of assignment 4. The functionalities of Assignment 4 are given below:

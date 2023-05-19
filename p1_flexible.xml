@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Portfolio type="Flexible">
+    <Stock id="0">
+        <Ticker>goog</Ticker>
+        <NoOfStocks>5</NoOfStocks>
+        <TransactionDate>2021-01-01</TransactionDate>
+        <Status>b</Status>
+    </Stock>
+    <Stock id="1">
+        <Ticker>amzn</Ticker>
+        <NoOfStocks>6</NoOfStocks>
+        <TransactionDate>2021-02-02</TransactionDate>
+        <Status>b</Status>
+    </Stock>
+    <Stock id="2">
+        <Ticker>goog</Ticker>
+        <NoOfStocks>2</NoOfStocks>
+        <TransactionDate>2021-04-04</TransactionDate>
+        <Status>s</Status>
+    </Stock>
+</Portfolio>

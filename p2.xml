@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Portfolio>
+    <Stock id="0">
+        <Ticker>GOOG</Ticker>
+        <NoOfStocks>4</NoOfStocks>
+    </Stock>
+    <Stock id="1">
+        <Ticker>TSLA</Ticker>
+        <NoOfStocks>5</NoOfStocks>
+    </Stock>
+    <Stock id="2">
+        <Ticker>V</Ticker>
+        <NoOfStocks>32</NoOfStocks>
+    </Stock>
+</Portfolio>

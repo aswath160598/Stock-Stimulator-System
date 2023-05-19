@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Portfolio type="Flexible">
+    <Stock id="0">
+        <Ticker>goog</Ticker>
+        <NoOfStocks>5</NoOfStocks>
+        <TransactionDate>2020-12-14</TransactionDate>
+        <Status>b</Status>
+    </Stock>
+</Portfolio>
